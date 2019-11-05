@@ -1,0 +1,334 @@
+﻿Transferindo valores entre contas c1 e c2
+Saldo inicial c1: 200
+Saldo inicial c2: 200
+***************
+Iniciando transferencia 1! ........
+ Transfer├¬ncia 0 conclu├¡da com sucesso!
+ Saldo c1: 190 - Saldo c2: 210
+Iniciando transferencia 3! ........
+ Transfer├¬ncia 2 conclu├¡da com sucesso!
+ Saldo c1: 180 - Saldo c2: 220
+Iniciando transferencia 6! ........
+ Transfer├¬ncia 5 conclu├¡da com sucesso!
+ Saldo c1: 170 - Saldo c2: 230
+Iniciando transferencia 2! ........
+ Transfer├¬ncia 1 conclu├¡da com sucesso!
+ Saldo c1: 160 - Saldo c2: 240
+Iniciando transferencia 5! ........
+ Transfer├¬ncia 4 conclu├¡da com sucesso!
+ Saldo c1: 150 - Saldo c2: 250
+Iniciando transferencia 8! ........
+ Transfer├¬ncia 7 conclu├¡da com sucesso!
+ Saldo c1: 140 - Saldo c2: 260
+Iniciando transferencia 10! ........
+ Iniciando transferencia 18! ........
+ Iniciando... deposito 9 !
+Deposito 9 conclu├¡da com sucesso!
+ Saldo c1: 130 - Saldo c2: 270
+Iniciando transferencia 4! ........
+ Transfer├¬ncia 3 conclu├¡da com sucesso!
+ Saldo c1: 120 - Saldo c2: 280
+Iniciando transferencia 13! ........
+ Transfer├¬ncia 12 conclu├¡da com sucesso!
+ Saldo c1: 110 - Saldo c2: 290
+Iniciando transferencia 9! ........
+ Transfer├¬ncia 8 conclu├¡da com sucesso!
+ Saldo c1: 100 - Saldo c2: 300
+Iniciando transferencia 16! ........
+ Transfer├¬ncia 15 conclu├¡da com sucesso!
+ Saldo c1: 90 - Saldo c2: 310
+Iniciando transferencia 7! ........
+ Transfer├¬ncia 6 conclu├¡da com sucesso!
+ Saldo c1: 80 - Saldo c2: 320
+Transfer├¬ncia 9 conclu├¡da com sucesso!
+ Saldo c1: 130 - Saldo c2: 270
+Iniciando transferencia 20! ........
+ Transfer├¬ncia 19 conclu├¡da com sucesso!
+ Saldo c1: 70 - Saldo c2: 330
+Iniciando transferencia 19! ........
+ Transfer├¬ncia 18 conclu├¡da com sucesso!
+ Saldo c1: 60 - Saldo c2: 340
+Iniciando transferencia 21! ........
+ Transfer├¬ncia 20 conclu├¡da com sucesso!
+ Saldo c1: 50 - Saldo c2: 350
+Iniciando transferencia 22! ........
+ Transfer├¬ncia 21 conclu├¡da com sucesso!
+ Saldo c1: 40 - Saldo c2: 360
+Iniciando transferencia 14! ........
+ Transfer├¬ncia 13 conclu├¡da com sucesso!
+ Saldo c1: 30 - Saldo c2: 370
+Iniciando transferencia 25! ........
+ Transfer├¬ncia 24 conclu├¡da com sucesso!
+ Saldo c1: 20 - Saldo c2: 380
+Iniciando transferencia 26! ........
+ Transfer├¬ncia 25 conclu├¡da com sucesso!
+ Saldo c1: 10 - Saldo c2: 390
+Iniciando transferencia 17! ........
+ Transfer├¬ncia 16 conclu├¡da com sucesso!
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 29! ........
+ Transfer├¬ncia 28 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 30! ........
+ Transfer├¬ncia 29 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 31! ........
+ Transfer├¬ncia 30 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 32! ........
+ Transfer├¬ncia 31 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 34! ........
+ Transfer├¬ncia 33 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 65! ........
+ Transfer├¬ncia 64 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando... deposito 19 !
+Deposito 19 conclu├¡da com sucesso!
+ Saldo c1: 10 - Saldo c2: 390
+Iniciando transferencia 39! ........
+ Transfer├¬ncia 38 conclu├¡da com sucesso!
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 40! ........
+ Transfer├¬ncia 39 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 41! ........
+ Transfer├¬ncia 40 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 43! ........
+ Transfer├¬ncia 42 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 44! ........
+ Transfer├¬ncia 43 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 46! ........
+ Transfer├¬ncia 45 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 47! ........
+ Transfer├¬ncia 46 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 49! ........
+ Transfer├¬ncia 48 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 50! ........
+ Transfer├¬ncia 49 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 51! ........
+ Transfer├¬ncia 50 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 52! ........
+ Transfer├¬ncia 51 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 54! ........
+ Transfer├¬ncia 53 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 55! ........
+ Transfer├¬ncia 54 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 57! ........
+ Transfer├¬ncia 56 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 58! ........
+ Iniciando transferencia 59! ........
+ Transfer├¬ncia 58 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 60! ........
+ Transfer├¬ncia 59 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 33! ........
+ Transfer├¬ncia 32 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 62! ........
+ Transfer├¬ncia 61 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 35! ........
+ Transfer├¬ncia 34 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 36! ........
+ Transfer├¬ncia 35 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 66! ........
+ Transfer├¬ncia 65 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 69! ........
+ Transfer├¬ncia 68 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 70! ........
+ Transfer├¬ncia 69 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 71! ........
+ Transfer├¬ncia 70 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 72! ........
+ Transfer├¬ncia 71 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 74! ........
+ Transfer├¬ncia 73 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 75! ........
+ Transfer├¬ncia 74 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 77! ........
+ Transfer├¬ncia 76 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 78! ........
+ Transfer├¬ncia 77 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 80! ........
+ Transfer├¬ncia 79 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 24! ........
+ Transfer├¬ncia 23 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 82! ........
+ Transfer├¬ncia 81 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 83! ........
+ Transfer├¬ncia 82 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 84! ........
+ Transfer├¬ncia 83 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 48! ........
+ Transfer├¬ncia 47 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 87! ........
+ Transfer├¬ncia 86 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 88! ........
+ Transfer├¬ncia 87 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando... deposito 49 !
+Deposito 49 conclu├¡da com sucesso!
+ Saldo c1: 10 - Saldo c2: 390
+Iniciando transferencia 91! ........
+ Transfer├¬ncia 90 conclu├¡da com sucesso!
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 92! ........
+ Transfer├¬ncia 91 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 53! ........
+ Transfer├¬ncia 52 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 95! ........
+ Transfer├¬ncia 94 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 96! ........
+ Transfer├¬ncia 95 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 56! ........
+ Transfer├¬ncia 55 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 99! ........
+ Transfer├¬ncia 98 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 100! ........
+ Transfer├¬ncia 99 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Transfer├¬ncia 57 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 42! ........
+ Transfer├¬ncia 41 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 67! ........
+ Transfer├¬ncia 66 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 90! ........
+ Transfer├¬ncia 89 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 63! ........
+ Transfer├¬ncia 62 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 37! ........
+ Transfer├¬ncia 36 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 38! ........
+ Transfer├¬ncia 37 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 12! ........
+ Transfer├¬ncia 11 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando... deposito 39 !
+Deposito 39 conclu├¡da com sucesso!
+ Saldo c1: 10 - Saldo c2: 390
+Iniciando transferencia 23! ........
+ Transfer├¬ncia 22 conclu├¡da com sucesso!
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando... deposito 79 !
+Deposito 79 conclu├¡da com sucesso!
+ Saldo c1: 10 - Saldo c2: 390
+Iniciando transferencia 45! ........
+ Transfer├¬ncia 44 conclu├¡da com sucesso!
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 85! ........
+ Transfer├¬ncia 84 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 27! ........
+ Transfer├¬ncia 26 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando... deposito 89 !
+Deposito 89 conclu├¡da com sucesso!
+ Saldo c1: 10 - Saldo c2: 390
+Iniciando transferencia 93! ........
+ Transfer├¬ncia 92 conclu├¡da com sucesso!
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 11! ........
+ Transfer├¬ncia 10 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 98! ........
+ Transfer├¬ncia 97 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando... deposito 99 !
+Deposito 99 conclu├¡da com sucesso!
+ Saldo c1: 10 - Saldo c2: 390
+Iniciando... deposito 59 !
+Deposito 59 conclu├¡da com sucesso!
+ Saldo c1: 20 - Saldo c2: 380
+Iniciando transferencia 64! ........
+ Transfer├¬ncia 63 conclu├¡da com sucesso!
+ Saldo c1: 10 - Saldo c2: 390
+Iniciando... deposito 69 !
+Deposito 69 conclu├¡da com sucesso!
+ Saldo c1: 20 - Saldo c2: 380
+Iniciando transferencia 76! ........
+ Transfer├¬ncia 75 conclu├¡da com sucesso!
+ Saldo c1: 10 - Saldo c2: 390
+Iniciando transferencia 81! ........
+ Transfer├¬ncia 80 conclu├¡da com sucesso!
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 86! ........
+ Transfer├¬ncia 85 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 28! ........
+ Transfer├¬ncia 27 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 97! ........
+ Transfer├¬ncia 96 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Transfer├¬ncia 17 conclu├¡da com sucesso!
+ Saldo c1: 120 - Saldo c2: 280
+Iniciando transferencia 61! ........
+ Transfer├¬ncia 60 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 73! ........
+ Transfer├¬ncia 72 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 15! ........
+ Transfer├¬ncia 14 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 94! ........
+ Transfer├¬ncia 93 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 68! ........
+ Transfer├¬ncia 67 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 89! ........
+ Transfer├¬ncia 88 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando transferencia 79! ........
+ Transfer├¬ncia 78 nao realizada. C1 sem saldo.
+ Saldo c1: 0 - Saldo c2: 400
+Iniciando... deposito 29 !
+Deposito 29 conclu├¡da com sucesso!
+ Saldo c1: 10 - Saldo c2: 390
