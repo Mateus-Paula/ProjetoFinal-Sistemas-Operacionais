@@ -8,14 +8,15 @@ Em ambas as plataformas, tanto no linux quanto no windows, fez-se necessário a 
 ### No linux:
 Foi utilizado o editor de texto gedit, no arquivo de imagem do teste no linux os seguinte comandos aparecem: 
 
-  mkdir projeto                                        cria o diretório projeto
-  cd projeto                                           entra no diretório projeto
-  gedit proj3.c                                        cria o arquivo proj3.c no editor gedit, onde conterá o código (proj3.c)
-  gcc -o projeto proj3.c -lpthread                     compilação do arquivo utilizando o gcc
-  ./projeto                                            execução do arquivo
+  1. mkdir projeto                                        cria o diretório projeto
+  2. cd projeto                                           entra no diretório projeto
+  3. gedit proj3.c                                        cria o arquivo proj3.c no editor gedit, onde conterá o código (proj3.c)
+  4. gcc -o projeto proj3.c -lpthread                     compilação do arquivo utilizando o gcc
+  5. ./projeto                                            execução do arquivo
   
 ### No windows:
-O código referente ao exercício (proj3.c) foi salvo em um bloco de notas e foi compilado pelo mesmo processo do linux gcc -o projeto proj3.c -lpthread e executado pelo comando ./projeto.
+Passos:
+  1. 
 
 ## Resultado
 Os resultados nos sistemas operacionais são diferentes, entretanto a "bagunça" entre as impressões geradas pelo programa é similar em ambos SO's, isso é, a concorrência de processos e threads se faz presente nesse momento, uma vez que eles competem por um lugar de processamento sem que, necessariamente, sigam uma ordem de execução.
