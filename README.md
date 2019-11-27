@@ -23,7 +23,7 @@ Passos:
   3. Baixar o programa mingw-get-setup no site: https://osdn.net/projects/mingw/releases/ e instalar no Windows na pasta default C:\MinGW
   4. Na tela MinGW Installation Manager, marcar os pacotes "mingw32-base" e mingw32-gcc-objc", clicar na opção Installation, Apply Changes e, por último, em apply
   5. Ainda na Tela MinGW Installation Manager, entrar em "All Packages", marcar os três pacotes "mingw32-threads-w32" (bibliotecas do POSIX) e instalar
-  6. Adicionar a pasta "MinGW\bin" na variável de ambiente PATH
+  6. Adicionar a pasta "C:\MinGW\bin" na variável de ambiente PATH
   7. Executar o cmd (Prompt de Comando) do Windows
   8. Entrar na pasta Projeto criada no item 1
   9. Compilar o arquivo proj3.c da seguinte forma: gcc -o "nome do arquivo compilado desejado" proj3.c -lpthread
