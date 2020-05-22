@@ -1,47 +1,89 @@
+# mov-react-native-kodiak-templates
 
-# ProjetoFinal-Sistemas-Operacionais
-O trecho de código tem como objetivo zerar o saldo de uma conta (from) através de várias transferências para a outra (to). Contudo, acontece uma falha em sua execução causada por um dos problemas relativos à concorrência apresentados em sala. Para que o código seja executado com sucesso, é necessário identificar o problema e apresentar uma solução, com base nas observações relativas aos problemas.
+Neste repositório se encontram todos os templates que poderão ser usados para compor serviços no App do Banco do Brasil.
 
-## Como executar
-Em ambas as plataformas, tanto no linux quanto no windows, fez-se necessário a instalação do gcc diretamente nos terminais. E para simular o SO (sistema operacional) linux/Ubuntu foi utilizado o Oracle Virtual Box, o qual cria a simulação de outros sistemas operacionais
+## Palavras-Chave
+#### Serviço (service)
+Um serviço indica um fluxo completo a ser adicionado no APP BB. Um serviço contempla uma e apenas uma funcionalidade completa. Todo serviço deve começar por uma tela inicial, esta fica indicada no campo initialConfig.configId do serviço.
 
-### No linux:
-Foi utilizado o editor de texto gedit, no arquivo de imagem do teste no linux os seguinte comandos aparecem: 
+Os serviços cadastrados podem ser encontrados no banco de dados mongoDB: Database: superApp; collection: services. Utiliza-se o launchpad para cadastrar novos serviços, url: <url-de-produçao>. Segue um exemplo de um serviço cadastrado:
 
-  1. Entrar no Terminal Linux
-  2. mkdir projeto = Criar a pasta (projeto) dentro de Home/"User"
-  3. Baixar o arquivo proj3.c, que contém o código fonte do trabalho, na pasta recém criada (projeto)
-  3. cd projeto =                                         entra no diretório projeto
-  4. gcc -o "nome do arquivo compilado desejado" proj3.c -lpthread =                   compilação do arquivo proj3.c utilizando o gcc
-  5. ./projeto =                                          execução do arquivo
-  
-### No windows:
-Passos:
+```json
+{
+    _id: ObjectId('5e45703163342a0e24ded7dd'),
+    audiences: [
+        'publico-geral'
+    ],
+    categories: [
+        'impostos'
+    ],
+    activeOffer: true,
+    highlighted: false,
+    name: 'Imposto Predial e Territorial Urbano - IPTU 2.0',
+    title: 'IPTU 2.0',
+    description: 'Consultar e pagar os impostos do seu imóvel ficou mais fácil',
+    icon: 'home-solid',
+    initialConfig: {
+        configId: '5e4570d863342a0024ded7dd'
+    },
+    createdAt: ISODate('2020-02-13T15:50:09.118Z'),
+    updatedAt: ISODate('2020-02-13T15:50:09.118Z'),
+    mci: 50,
+    __v: 0
+}
+```
 
-  1. Criar a pasta (projeto)  para inserir o arquivo proj3.c
-  2. Baixar o arquivo proj3.c, que contém o código fonte do trabalho, na pasta recém criada (projeto)
-  3. Baixar o programa mingw-get-setup no site: https://osdn.net/projects/mingw/releases/ e instalar no Windows na pasta default C:\MinGW
-  4. Na tela MinGW Installation Manager, marcar os pacotes "mingw32-base" e mingw32-gcc-objc", clicar na opção Installation, Apply Changes e, por último, em apply
-  5. Ainda na Tela MinGW Installation Manager, entrar em "All Packages", marcar os três pacotes "mingw32-threads-w32" (bibliotecas do POSIX) e instalar
-  6. Adicionar a pasta "C:\MinGW\bin" na variável de ambiente PATH. Pode utilizar o comando "set PATH=%PATH%;C:\minha\nova\pasta" no CMD
-  7. Executar o cmd (Prompt de Comando) do Windows
-  8. Entrar na pasta Projeto criada no item 1
-  9. Compilar o arquivo proj3.c da seguinte forma: gcc -o "nome do arquivo compilado desejado" proj3.c -lpthread
-  10. Executar o programa digitando: projeto
-    
-  
-  
-  
+Este é um serviço de IPTU. **title** e **description** são utilizados para indicar ao usuário informações sobre o serviço. **audiences** é utilizado para discriminar o público-alvo deste serviço. **activeOffer** indica se este serviço estará disponível ou não no APP.
 
-## Resultado
-Os resultados nos sistemas operacionais são diferentes, entretanto a "bagunça" entre as impressões geradas pelo programa é similar em ambos SO's, isso é, a concorrência de processos e threads se faz presente nesse momento, uma vez que eles competem por um lugar de processamento sem que, necessariamente, sigam uma ordem de execução.
+#### Template
 
-Percebe-se também, que o objetivo de zerar uma conta (c1) com a transferência para uma outra conta (c2) foi alcançada e, além disso, a conta to (c1), responsável por "mandar" o dinheiro para a conta from (c2), também recebe dinheiro em um depósito toda vez que um contador atinge 10 contagens.
+Um template é um molde de tela, uma tela compõe um fluxo de um serviço. A ideia é ter neste repositório um conjunto abrangente de templates para que um parceiro possa compor um fluxo de telas usando somente os templates disponíveis aqui. Exemplo: utilizar um template **introTemplate.js** e depois **listTemplate.js** para compor um fluxo que envolva uma introdução e depois a apresentação de uma lista. Para isso, o parceiro deve cadastrar um serviço no launchpad cuja configuração inicial tem como base o **introTemplate.js** e depois cadastrar uma tela de **listTemplate.js**.
 
-No final de tudo, todos os requisitos foram atendidos, são eles:
-  1. A conta to pode receber mais de uma transferência simultânea;
-  2. A conta from pode enviar mais de uma transferência simultânea;
-  3. A conta from não pode enviar dinheiro se não tiver mais saldo;
-  4. A conta to pode trocar de ordem com a conta from, ou seja, a conta que enviava pode
-  receber e a conta que recebia pode enviar;
-  5. Poderão ser realizadas até 100 transações simultâneas de transferência.
+Todos os Templates disponíveis se encontram neste repositório, consulte o diretório: templates. Se você quer criar um serviço, entre no launchpad e verifique se os templates disponíveis suprem sua necessidade. Caso contrário, você pode contribuir criando um novo template neste repositório. Para isso, siga as orientações na seção: como contribuir.
+
+#### Configuração (configuration)
+
+Uma configuração é uma especificação completa de uma tela que compõe algum serviço do APP. Isto é, uma configuração indica qual template será usado na tela e quais parâmetros serão usados para renderizar os componentes existentes no template. Por exemplo: uma configuração de uma tela de introdução fornecerá "parameters.name": 'Intro', indicando IntroTemplate como seu template base, e também fornecerá parameters.templateParams.title indicando o título a ser mostrado na tela. O campo **owner** indica qual serviço é dono desta configuração. As configurações cadastradas podem ser encontrados no banco de dados mongoDB: Database: superApp; collection: configurations. Segue um exemplo de configuração de uma tela de introdução:
+
+```json
+{
+    _id: ObjectId('5e879bfbad06140d5f900d24'),
+    owner: ObjectId('5e879b86ad06140d5f900d22'),
+    parameters: {
+        name: 'Intro',
+        __requests: [],
+        screenParams: {
+            style: 'empty',
+            theme: 'dark'
+        },
+        headerParams: {},
+        templateParams: {
+            title: 'Agora ficou muito mais fácil consultar seu PASEP',
+            icon: 'bank-2-solid',
+            description: 'Verifique se você possui saldo. Basta informar seu número de inscrição PASEP ou seu CPF com sua data de nascimento.',
+            hint: 'CONSULTE SEU PASEP'
+        },
+        footerParams: {
+            mainButton: {
+                title: 'CONTINUAR',
+                action: {
+                    name: 'navigation',
+                    params: {
+                        configId: '5e87b11fad06140d5f900d26'
+                    }
+                }
+            }
+        }
+    },
+    createdAt: ISODate('2020-04-20T13:38:40.030Z'),
+    updatedAt: ISODate('2020-04-20T13:38:40.030Z'),
+    __v: 0
+}
+```
+
+## Como contribuir
+
+
+
+## Versionamento
+
